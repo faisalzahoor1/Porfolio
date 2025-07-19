@@ -21,14 +21,14 @@ export const About = () => {
 
                 </div>
                 <div className="about-skills">
-                    <div className="about-skill"><p>HTML AND CSS</p><hr style={{width:"120%"}}/></div>
+                    <div className="about-skill"><p>HTML AND CSS</p><hr style={{width:"90%"}}/></div>
                     <div className="about-skill"><p>JAVASCRIPT</p><hr style={{width:"60%"}}/></div>
                     <div className="about-skill"><p>REACT JS</p><hr style={{width:"70%"}}/></div>
                     <div className="about-skill"><p>JAVA</p><hr style={{width:"30%"}}/></div>
                     <div className="about-skill"><p>PYTHON</p><hr style={{width:"40%"}}/></div>
-                    <div className="about-skill"><p>C++</p><hr style={{width:"65%"}}/></div>
-                    <div className="about-skill"><p>EXPRESS JS</p><hr style={{width:"50%"}}/></div>
-                    <div className="about-skill"><p>C#</p><hr style={{width:"50%"}}/></div>
+                    <div className="about-skill"><p>C++</p><hr style={{width:"45%"}}/></div>
+                    <div className="about-skill"><p>EXPRESS JS</p><hr style={{width:"40%"}}/></div>
+                    <div className="about-skill"><p>C#</p><hr style={{width:"20%"}}/></div>
                 </div>
             </div>
         </div>

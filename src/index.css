@@ -8,4 +8,10 @@ body{
   background-color: #161513;
   color: white;
   font-family: 'outfit';
+  overflow-x: hidden;
+  scrollbar-width: none;
+}
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
 }

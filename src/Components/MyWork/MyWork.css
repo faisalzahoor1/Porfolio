@@ -25,7 +25,8 @@
     right: 0;
     z-index: -1;
 }
-.mywork-container{
+
+.mywork-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 20px;
@@ -34,18 +35,21 @@
     padding: 10px;
     overflow-y: hidden;
 }
-.mywork-container img{
+
+.mywork-container img {
     width: 25vw;
     transition: 0.5s ease-out;
     border: none;
     border-radius: 9px;
 }
-.mywork-container img:hover{
+
+.mywork-container img:hover {
     transform: scale(1.05);
-    border:4px solid purple;
-    border-radius: 12px ;
+    border: 4px solid purple;
+    border-radius: 12px;
 }
-.mywork-button{
+
+.mywork-button {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -57,20 +61,26 @@
     margin-bottom: 30px;
     transition: 0.5s;
 }
-.mywork-button:hover{
+
+.mywork-button:hover {
     transform: scaleX(1.15);
     gap: 20px;
 }
-.mywork-button p{
+
+.mywork-button p {
     font-size: 24px;
     font-weight: 500;
 }
-.mywork-button img{
+
+.mywork-button img {
     width: 20px;
 }
+
 .mywork-container.scroll-enabled {
-    overflow-y: auto;         /* Enables vertical scrolling */
-    scrollbar-width: none;    /* Firefox: hides scrollbar */
+    overflow-y: auto;
+    /* Enables vertical scrolling */
+    scrollbar-width: none;
+    /* Firefox: hides scrollbar */
     height: 95vh;
 }
 
@@ -78,46 +88,81 @@
 .mywork-container.scroll-enabled::-webkit-scrollbar {
     display: none;
 }
-@media(max-width:768px){
+
+@media(max-width:768px) {
+    .mywork {
+        /* border: 2px solid red; */
+        width: 94vw;
+        margin-left: 10px;
+    }
+
     .mywork-title h1 {
-    padding: 0px 30px;
-    font-size: 46px;
-    font-weight: 600;
-}
-.mywork-title img {
-    position: absolute;
-    top: 4px;
-    bottom: 0;
-    right: 3px;
-    z-index: -1;
-    width: 180px;
-}
-.mywork-container{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 20px;
-    height: 77vh;
-    width: 85vw;
-    padding: 10px;
-    overflow-y: hidden;
-}
-.mywork-button{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
-    border: 2px solid white;
-    border-radius: 50px;
-    padding: 18px;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    transition: 0.5s;
-}
-.mywork-button p{
-    font-size: 14px;
-    font-weight: 500;
-}
-.mywork-button img{
-    width: 17px;
-}
+        padding: 0px 30px;
+        font-size: 25px;
+        font-weight: 600;
+        width: 180px;
+        /* border: 2px solid red; */
+    }
+
+    .mywork-title img {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        z-index: -1;
+        width: 90px;
+    }
+
+    .mywork-container {
+        /* border: 2px solid red; */
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 10px;
+        height: 42vh;
+        width: 85vw;
+        padding: 10px;
+        overflow-y: hidden;
+    }
+
+    .mywork-container img {
+        width: 25vw;
+        transition: 0.5s ease-out;
+        border: none;
+        border-radius: 9px;
+    }
+
+    .mywork-container img:hover {
+        transform: scale(1.05);
+        border: 4px solid purple;
+        border-radius: 12px;
+    }
+
+    .mywork-container.scroll-enabled {
+        overflow-y: auto;
+        /* Enables vertical scrolling */
+        scrollbar-width: none;
+        /* Firefox: hides scrollbar */
+        height: 42vh;
+    }
+
+    .mywork-button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        border: 2px solid white;
+        border-radius: 50px;
+        padding: 11px;
+        margin-top: 5px;
+        margin-bottom: 30px;
+        transition: 0.5s;
+    }
+
+    .mywork-button p {
+        font-size: 12px;
+        font-weight: 500;
+    }
+
+    .mywork-button img {
+        width: 15px;
+    }
 }

@@ -36,7 +36,7 @@
     width: 22vw;
     gap: 20px;
     padding-right: 5px;
-    padding-top:25px;
+    padding-top: 25px;
     padding-bottom: 25px;
     padding-left: 55px;
     border-radius: 10px;
@@ -83,10 +83,10 @@
     height: 40vh;
     font-size: 20px;
     color: rgb(157, 175, 175);
-    overflow-y: auto; 
+    overflow-y: auto;
     transition: all 0.3s ease;
     /* border: 2px solid red; */
-    scrollbar-width: none; 
+    scrollbar-width: none;
     padding-right: 70px;
 }
 
@@ -101,56 +101,80 @@
 .service-readmore>p {
     color: rgb(157, 175, 175);
 }
-@media(max-width:768px){
+
+@media(max-width:768px) {
+    .services-container{
+        gap: 7px;
+        margin-top: 10px;
+    }
+    .service-format:hover {
+        background: linear-gradient(45deg, #3f0028, #582300);
+        border: 2px solid purple;
+        transform: scale(1.05);
+    }
+
     .service {
-    /* border: 2px solid red; */
-    width: 95vw;
-    margin-left: 0;
-}
+        /* border: 2px solid red; */
+        width: 92vw;
+        margin-left: 20px;
+    }
+
     .service-title h1 {
-    padding: 0px 30px;
-    font-size: 50px;
-    font-weight: 600;
-}
-.service-title img {
-    position: absolute;
-    top: 10px;
-    bottom: 0;
-    right: 5px;
-    width: 180px;
-    z-index: -1;
-}
-.service-format {
-    height: 40vh;
-    width: 20vw;
-    gap: 10px;
-    /* overflow: hidden; */
-}
-.service-readmore img {
-    width: 12px;
-}
-.service-readmore {
-    /* border: 2px solid red; */
-    user-select: none;
-    display: flex;
-    gap: 7px;
-    margin-top: 10px;
-    align-items: center;
-    font-size: 16px;
-}
-.service-format h2 {
-    font-size: 17px;
-}
-.service-desc {
-    width: 10vw;
-    height: 40vh;
-    font-size: 15px;
-    color: rgb(157, 175, 175);
-    overflow-y: auto; 
-    transition: all 0.3s ease;
-    /* border: 2px solid red; */
-    scrollbar-width: none; 
-    padding-right: 70px;
-}
+        padding: 0px 30px;
+        font-size: 25px;
+        font-weight: 600;
+    }
+
+    .service-title img {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        width: 90px;
+        z-index: -1;
+    }
+
+    .service-format {
+        height: 18vh;
+        width: 10vw;
+        gap: 4px;
+        /* overflow: hidden; */
+    }
+    .service-readmore img {
+        width: 6px;
+    }
+
+    .service-readmore {
+        /* border: 2px solid red; */
+        user-select: none;
+        position: relative;
+        left: -40px;
+        width: 60px;
+        gap: 7px;
+        margin-top: 10px;
+        font-size: 9px;
+    }
+    .service-format h3{
+        position: relative;
+        left: -40px;
+    }
+    .service-format h2 {
+        font-size: 11px;
+        position: relative;
+        left: -40px;
+    }
+
+    .service-desc {
+        width: 10vw;
+        height: 40vh;
+        font-size: 9px;
+        position: relative;
+        left: -40px;
+        color: rgb(157, 175, 175);
+        overflow-y: auto;
+        transition: all 0.3s ease;
+        /* border: 2px solid red;  */
+        scrollbar-width: none;
+        padding-right: 30px;
+    } 
 
 }

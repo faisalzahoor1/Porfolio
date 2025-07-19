@@ -61,6 +61,66 @@ const mywork_data = [
         w_name:"Web design",
         w_img:project6_img
     },
+    {
+        w_no:12,
+        w_name:"Web design",
+        w_img:project6_img
+    },
+    {
+        w_no:13,
+        w_name:"Web design",
+        w_img:project2_img
+    },
+    {
+        w_no:14,
+        w_name:"Web design",
+        w_img:project3_img
+    },
+    {
+        w_no:15,
+        w_name:"Web design",
+        w_img:project4_img
+    },
+    {
+        w_no:16,
+        w_name:"Web design",
+        w_img:project5_img
+    },
+    {
+        w_no:17,
+        w_name:"Web design",
+        w_img:project6_img
+    },
+    {
+        w_no:18,
+        w_name:"Web design",
+        w_img:project6_img
+    },
+    {
+        w_no:19,
+        w_name:"Web design",
+        w_img:project2_img
+    },
+    {
+        w_no:20,
+        w_name:"Web design",
+        w_img:project3_img
+    },
+    {
+        w_no:21,
+        w_name:"Web design",
+        w_img:project4_img
+    },
+    {
+        w_no:22,
+        w_name:"Web design",
+        w_img:project5_img
+    },
+    {
+        w_no:23,
+        w_name:"Web design",
+        w_img:project6_img
+    },
 ]
  
 export default mywork_data;

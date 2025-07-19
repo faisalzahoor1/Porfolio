@@ -59,6 +59,7 @@
 }
 
 .contact-detail {
+    /* border: 2px solid red; */
     width: 60%;
     display: flex;
     align-items: center;
@@ -80,17 +81,19 @@
 
 
 .contact-right label {
+    /* border: 2px solid red; */
     color: #D8D8D8;
-    font-size: 22px;
+    font-size: 15px;
     font-weight: 500;
     margin-top: 10px;
     margin-bottom: 10px;
 }
 
 .contact-right input {
+    /* border: 2px solid red; */
     color: #D8D8D8;
     border: none;
-    width: 40vw;
+    width: 44vw;
     border-radius: 4px;
     background: #32322c;
     height: 10vh;
@@ -98,14 +101,16 @@
 }
 
 .contact-right textarea {
+    /* border: 2px solid red; */
     border: none;
-    width: 40vw;
+    width: 44vw;
     border-radius: 4px;
     background: #32322c;
     padding-left: 20px;
     color: #D8D8D8;
 }
- button {
+
+button {
     color: aliceblue;
     border: none;
     border-radius: 30px;
@@ -118,35 +123,60 @@
     cursor: pointer;
     transition: 0.5s;
 }
+
 button:hover {
     transform: scale(1.05);
 }
-@media(max-width:768px){
-    .contact-title h1 {
-    padding: 0px 30px;
-    font-size: 50px;
-    font-weight: 600;
-}
 
-.contact-title img {
-    position: absolute;
-    bottom: 0;
-    top: 9px;
-    right: 0;
-    z-index: -1;
-    width: 180px;
-}
-.contact-left h1 {
-    width: 70%;
-    font-size: 44px;
-    font-weight: 600;
-}
- button {
-    color: aliceblue;
-    border: none;
-    border-radius: 30px;
-    font-size: 18px;
-    width: 150px;
-    padding: 8px;
-}
+@media(max-width:768px) {
+    .contact{
+        margin-left: 10px;
+        width: 92vw;
+        margin-bottom: 10px;
+    }
+    .contact-section{
+        margin-top: 10px;
+    }
+    .contact-title h1 {
+        padding-left: 0;
+        font-size: 25px;
+        font-weight: 600;
+        width: 134px;
+    }
+
+    .contact-title img {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        z-index: -1;
+        width: 90px;
+    }
+
+    .contact-left h1 {
+        /* border: 2px solid red; */
+        width: 90%;
+        font-size: 30px;
+        font-weight: 600;
+    }
+
+    button {
+        color: aliceblue;
+        border: none;
+        border-radius: 30px;
+        font-size: 18px;
+        width: 120px;
+        padding: 4px;
+    }
+    .contact-detail{
+        width: 143px;
+        gap: 5px;
+    }
+    .contact-detail p{
+        /* border: 2px solid red; */
+        font-size: 11px;
+    }
+    #No-detail{
+        /* border: 2px solid red; */
+        width: 120px;
+    }
 }

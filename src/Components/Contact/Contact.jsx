@@ -43,9 +43,9 @@ export const Contact = () => {
                             <img src={mail_icon} alt="" />
                             <p>faisalzahoor96@gmail.com</p>
                         </div>
-                        <div className="contact-detail">
+                        <div className="contact-detail" >
                             <img src={call_icon} alt="" />
-                            <p>+92-3181982143</p>
+                            <p id='No-detail'>+92-3181982143</p>
                         </div>
                         <div className="contact-detail">
                             <img src={location_icon} alt="" />
