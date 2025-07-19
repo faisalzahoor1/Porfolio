@@ -1,0 +1,167 @@
+.home {
+  /* border: 2px solid rebeccapurple; */
+  /* border: 2px solid red; */
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.profile-pic {
+  width: 10vw;
+  height: 24vh;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
+  margin-top: 90px;
+}
+
+.home p {
+  /* border: 2px solid rebeccapurple; */
+  width: 50%;
+  text-align: center;
+  font-size: 24px;
+  line-height: 40px;
+}
+
+.home h1 {
+  /* border: 2px solid rebeccapurple; */
+  text-align: center;
+  width: 70%;
+  font-size: 50px;
+  font-weight: 600;
+}
+
+.home h1 span {
+  background: linear-gradient(267deg, #DA7C25 .36%, #B923E1 102.06%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.typing-text {
+  display: inline-block;
+  white-space: nowrap;
+  overflow: hidden;
+  vertical-align: bottom;
+  border-right: 2px solid black;
+  width: 0;
+  animation: typing 4s steps(30) infinite, blink 0.7s step-end infinite;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+
+  to {
+    width: 23ch;
+    /* Number of characters to show (adjust as needed) */
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+
+.home-buttons {
+  /* border: 2px solid red; */
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  font-size: 15px;
+  font-weight: 500;
+  margin-bottom: 50px;
+}
+
+.home-connect {
+  /* border: 2px solid rebeccapurple; */
+  border-radius: 50px;
+  padding: 15px 25px;
+  background: linear-gradient(267deg, #DA7C25 .36%, #B923E1 102.06%);
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.home-connect a {
+  text-decoration: none;
+  color: white;
+}
+
+.home-connect:hover {
+  transform: scale(1.05);
+  border: 2px solid aliceblue;
+}
+
+.home-resume {
+  /* border: 2px solid rebeccapurple; */
+  border-radius: 50px;
+  padding: 15px 25px;
+  background: black;
+  cursor: pointer;
+  transition: 0.5s;
+  border: 2px solid aliceblue;
+}
+
+.home-resume:hover {
+  transform: scale(1.05);
+  border: 2px solid purple;
+}
+
+@media(max-width:768px) {
+  .home {
+  /* border: 2px solid rebeccapurple; */
+  /* border: 2px solid red; */
+  width: 85vw;
+  margin-left: 50px;
+}
+  .profile-pic {
+    width: 15vw;
+    height: 22vh;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+    margin-top: 90px;
+  }
+
+  .home p {
+    /* border: 2px solid rebeccapurple; */
+    width: 50%;
+    margin-top: -20px;
+    text-align: center;
+    font-size: 20px;
+    line-height: 40px;
+  }
+
+  .home h1 {
+    /* border: 2px solid rebeccapurple; */
+    text-align: center;
+    height: 120px;
+    width: 70%;
+    font-size: 30px;
+    font-weight: 600;
+  }
+
+  .home-buttons {
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    font-size: 12px;
+    font-weight: 500;
+    margin-bottom: 50px;
+  }
+  .home-connect {
+    /* border: 2px solid rebeccapurple; */
+    border-radius: 50px;
+    padding: 15px 25px;
+    background: linear-gradient(267deg, #DA7C25 .36%, #B923E1 102.06%);
+    cursor: pointer;
+    transition: 0.5s;
+  }
+}
