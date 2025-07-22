@@ -8,7 +8,21 @@
     margin: 20px 170px;
     /* border: 2px solid red; */
 }
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 0px; /* Optional: adds space between text and image */
+}
 
+.logo img {
+    z-index: 10;
+    width: 36px;               /* 30px image + 2*3px border = 36px total */
+    height: 36px;
+    object-fit: cover;
+    /* border: 3px solid red;   */
+    border-radius: 50%;
+    box-sizing: content-box;   /* Ensures border is outside the image box */
+}
 .nav-menu {
     display: flex;
     align-items: center;

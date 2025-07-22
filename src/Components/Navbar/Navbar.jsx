@@ -4,6 +4,7 @@ import underline from '../../assets/nav_underline.svg'
 import menu_open from '../../assets/menu_open.svg'
 import menu_close from '../../assets/menu_close.svg'
 import './Navbar.css'
+import faisals from '../../assets/faisals.png'
 export const Navbar = () => {
   const [menu, setMenu] = useState("home");
   const menuRef = useRef();
@@ -44,7 +45,7 @@ export const Navbar = () => {
 
   return (
     <div className='navbar'>
-        <span>FaIsAl </span> 
+        <span className='logo'>FaIsAl <img src={faisals} alt=""/></span> 
         <img src={menu_open} alt="" onClick={openMenu} className='nav-mob-open'/>
         <ul ref={menuRef} className="nav-menu">
           <img src={menu_close} alt="" onClick={closeMenu} className='nav-mob-close'/>
